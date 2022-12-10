@@ -58,16 +58,20 @@ nav{
     border-radius: 50%;
     border: 1px solid white;
     margin: 0 auto;
+    background-image: url(./img/for_person.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .side_menu_items_ul{
    padding-left: 0;
 }
 
-.side_menu_items{
+.side_menu_items a{
+    color: white;
     font-size: 25px;
 }
 
-.side_menu_items a{
-    color: white;
+.side_menu_items:hover a{
+    color: #b52a2a;
 }
