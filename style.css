@@ -10,6 +10,102 @@ a{
     text-decoration: none;
 }
 
+
+
+  /* BURGER MENU */
+  .custom-toggler .navbar-toggler-icon {
+    font-weight: 900;
+    box-shadow: none;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .logo-img img {
+    width: 200px;
+    height: 70px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    color: #fff;
+    padding: 2px 6px;
+  }
+  
+  .navbar-toggler-icon {
+    /* background-color: #fff; */
+    color: red;
+    font-size: 30px;
+  }
+
+
+  .site-header{
+    background-color: rgb(34, 34, 73);
+  }
+  
+  .dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+
+
+.sitenav-item-link{
+  color: #000;
+  transition: all .7s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sitenav-item-link:hover {
+  color: #ff1d1d;
+}
+
+
+.dropdown-item{
+  white-space: break-spaces;
+}
+
+
+
+  .offcanvas.offcanvas-end{
+    width: 300px;
+    color: #000;
+  }
+
+  .offcanvas-header{
+    width: 300px;
+  }
+
+
+
+
+  .nav-item {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+.offcanvas-nav-item{
+  font-size: 25px;
+}
+
+
+.nav-pills {
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .info{
     height: 100%;
 }
